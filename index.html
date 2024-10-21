@@ -45,8 +45,12 @@
         <p class="section__text__p2"> Full-Stack Developer</p>
         <div class="btn-container">
 
-          <a href="http://localhost/assets/resume.pdf" class="btn btn-color-2" download>Open Resume</a>
-
+          <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume.pdf')"
+        >
+          Download CV
+        </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
           </button>
