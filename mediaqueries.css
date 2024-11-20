@@ -48,13 +48,24 @@
 }
 
 @media screen and (max-width: 600px) {
+
+
+
+  body{
+    padding: 15px;
+  }
+
   #contact,
   footer {
     height: 40vh;
   }
   #profile {
     height: 83vh;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+    margin: 20px 0;
+    position: relative;
+    bottom: 30;
+
   }
   article {
     font-size: 1rem;
@@ -62,6 +73,7 @@
   footer nav {
     height: fit-content;
     margin-bottom: 2rem;
+
   }
   .about-containers,
   .contact-info-upper-container,
@@ -87,12 +99,17 @@
     text-align: center;
   }
   .section__pic-container {
+    margin: 40px 0;
     width: auto;
     height: 46vw;
     justify-content: center;
   }
   .section__text__p2 {
+    margin: 20px 0;
     font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
   }
   .title {
     font-size: 2rem;
@@ -100,4 +117,23 @@
   .text-container {
     text-align: justify;
   }
+
+
+
+  .contact-info-upper-container{
+
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: baseline;
+      justify-content: center;
+      padding: 36px;
+  }
+
+  .about-details-container p{
+    padding: 30px;
+  }
+
+
+
 }
